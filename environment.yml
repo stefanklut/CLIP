@@ -1,0 +1,20 @@
+name: clip
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3
+  - pip
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.4
+  - ftfy
+  - regex
+  - tqdm
+  - jupyter
+  - scikit-image
+  - matplotlib
+  - pip:
+      - .
